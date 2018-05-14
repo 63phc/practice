@@ -12,25 +12,26 @@ Output: A verdict on the correctness of the expression in boolean (True or False
 """
 
 def checkio(expression):
-    x_list = list(expression)
+    stack = []
+    dict_b = {"{": "}", "[": "]", "(": ")"}
+    for letter in expression:
+        if letter in dict_b.keys():
+            stack.append(letter)
+        if letter in dict_b.values():
+            if not (stack and dict_b[stack.pop()] == letter):
+                return False
+    return not stack
 
-    bracket_list = ["(", ")", "{", "}", "[", "]"]
-    y_list = []
-    for i in x_list:
-        if (i in bracket_list):
-            y_list.append(i)
 
-    before = []
-    while y_list != before:
-        before = y_list.copy()
-        for i in range(len(y_list)):
-            if y_list[i:i + 2] in [["(", ")"], ["{", "}"], ["[", "]"]]:
-                del y_list[i:i + 2]
 
-    if y_list == []:
-        return True
-    else:
-        return False
+# def checkio(exp):
+#     s = ''
+#     for i in exp:
+#         if i in '(){}[]':
+#             s += i
+#         if s[-2:] in ('()', '{}', '[]'):
+#             s = s[:-2]
+#     return not s
 
 
 # These "asserts" using only for self-checking and not necessary for auto-testing
