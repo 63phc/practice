@@ -15,8 +15,6 @@ reduce
 Input: A list of numbers.
 
 Output: The sum of numbers.
-
-Example:
 """
 
 
