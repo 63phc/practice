@@ -14,3 +14,9 @@
 * codingame.com
 * leetcode.com
 * codeabbey.com
+
+### low
+* codingbat.com/python
+* pyschools.com
+* learnpython.org
+* pythonchallenge.com
