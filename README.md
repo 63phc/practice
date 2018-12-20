@@ -4,6 +4,8 @@
 * [codesignal.com](https://codesignal.com/) - Practice for interviews using real questions on need-to-know topics.
 * [reddit.com/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer) - 3 Programming Challenges a week!
 * [spoj.com](https://www.spoj.com/) - Learn how to code and build efficient algorithms.
+* [codecombat.com](https://codecombat.com) - there is a multiplayer
+
 
 #### Awesome resurces for programming on python:
 * [codingame.com](https://www.codingame.com/) - The new way to improve your programming skills while having fun and getting noticed.
