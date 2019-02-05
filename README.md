@@ -6,7 +6,6 @@
 * [spoj.com](https://www.spoj.com/) - Learn how to code and build efficient algorithms.
 * [codecombat.com](https://codecombat.com) - there is a multiplayer
 
-
 #### Awesome resurces for programming on python:
 * [codingame.com](https://www.codingame.com/) - The new way to improve your programming skills while having fun and getting noticed.
 * [leetcode.com](https://leetcode.com/) - Best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
